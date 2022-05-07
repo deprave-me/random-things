@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* ======= NavBar Styles ====== */
+.navbar {
+    background-color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-item {
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+/* Shows dropdown menu on hover */
+.dropdown:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.dropdown-menu {
+    margin: 0;
+    margin-left: 0.5em;
+    padding: 0;
+    line-height: 2em;
+}
+
+/* Search Bar */
+.searchbar {
+    border-radius: 0 0 0 0;
+}
+
+.left-nav {
+    font-size: 16px;
+}
+
+.right-nav {
+    font-size: 14px;
+}
+
+/* ====== Carousel Style ======= */
+.upper {
+    height: 70vh;
+}
+
+/* ====== Featured-Section Style ======= */
+.title {
+    font-weight: bolder;
+}
+
+.title-pos {
+    padding:0;
+    
+    margin: 0;
+    margin-left: 10.3vw;
+    margin-top: 5vh;
+}
+
+.featured-section {
+    margin-top: 15vh;
+}
+
+/* Card Carousel Style */
+.size {
+    width: 100vw;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+/* ====== Image Link ======= */
+.image-card {
+    margin-top: 20vh;
+}
+
+.img-link:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ====== Footer ======= */
+.footer {
+    height: 30vh;
+    background-color: black;
+    color: white;
+
+    margin-top: 20vh;
+}
